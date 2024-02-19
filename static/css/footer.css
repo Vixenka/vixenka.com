@@ -1,0 +1,28 @@
+.footer {
+    background-color: var(--background-footer);
+    padding: 3em;
+    display: flex;
+    justify-content: space-around;
+    height: 4em;
+    position: relative;
+}
+
+.footer-text {
+    color: white;
+}
+
+.footer-description {
+    text-align: right;
+}
+
+.footer-description .hovered {
+    display: none;
+}
+
+.footer-description:hover .hovered {
+    display: inline;
+}
+
+.footer-description:hover .unhovered {
+    display: none;
+}

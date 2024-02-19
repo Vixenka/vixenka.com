@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Oxygen;
+    src: url(/static/fonts/Oxygen-Regular.woff2);
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: Oxygen;
+    src: url(/static/fonts/Oxygen-Bold.woff2);
+    font-weight: 700;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: Oxygen;
+    src: url(/static/fonts/Oxygen-Light.woff2);
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.select {
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+html {
+    height: 100%;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Oxygen;
+}
+
+a {
+    color: var(--link);
+}
+
+a:visited {
+    color: var(--link-visited);
+}
+
+.content {
+    padding-top: 4em;
+    min-height: calc(100% - 4em);
+}
+
+.system-ui {
+    font-family: system-ui;
+}
+
+.tooltip-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.tooltip-wrapper .tooltip {
+    font-size: 14px;
+    visibility: hidden;
+    background-color: black;
+    color: white !important;
+    text-align: center;
+    padding: 0.75em;
+    border-radius: var(--rounded-border);
+    transform: translateY(2em);
+    width: max-content;
+    max-width: 10em;
+
+    position: absolute;
+    z-index: 1000;
+}
+
+.tooltip-wrapper:hover .tooltip {
+    visibility: visible;
+}
+
+.header-text span {
+    opacity: 0;
+    margin-left: -0.85em;
+    margin-right: 0.25em;
+}
+
+.header-text a {
+    color: var(--text);
+    text-decoration: none;
+    display: flex;
+}
+
+.header-text:hover span {
+    opacity: 1;
+}
+
+.header-text:target span {
+    color: var(--header-targeted);
+    opacity: 1;
+}

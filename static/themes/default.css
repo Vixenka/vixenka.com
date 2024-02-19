@@ -1,0 +1,30 @@
+:root {
+    --background: #11111b;
+    --text: #dbdee1;
+    --text-hint: #c2c2c2;
+    --link: #f7a8b8;
+    --link-visited: #f1627f;
+
+    --background-header: rgba(50, 50, 70, 0.5);
+    --background-footer: #282434;
+
+    --background-brighter: #32324c;
+    --background-drulple: #1e1e2e;
+    --background-darker: #28262c;
+    --background-darker2: #1f1d21;
+    --background-darker3: #151417;
+
+    --header-1: var(--link);
+    --header-targeted: var(--link);
+
+    --button-color: #322f36;
+    --button-hover-color: #4c4850;
+    --button-selected-color: #5e5a62;
+    --button-text-color: #8b9199;
+    --button-hover-text-color: #dbdee1;
+    --button-selected-text-color: white;
+
+    --button-darker-color: #232126;
+
+    --rounded-border: 15px;
+}

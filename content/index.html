@@ -1,0 +1,49 @@
+{{title:Vixenka's world}}
+{{description:Welcome in my world! Make yourself comfortable and enjoy the journey.}}
+
+<Header>
+    <link rel="stylesheet" href="/static/css/index.css">
+
+    <div class="index-welcome-container">
+        <img class="index-avatar" srcset="
+            /static/img/avatar@4.webp 200w,
+            /static/img/avatar@3.webp 599w,
+            /static/img/avatar@2.webp 1007w,
+            /static/img/avatar@1.webp 1024w" src="/static/img/avatar@1.webp" alt="My avatar">
+
+        <div class="index-welcome-right-container">
+            <h1>Welcome in my world!</h1>
+            <p>I'm Vixen (or Vixenka), a programmer enthusiast who loves performance, because I treat programming as
+                art.</p>
+
+            <div class="index-welcome-link-container no-select">
+                <a class="index-welcome-link tooltip-wrapper" href="https://github.com/Vixenka">
+                    <img src="/static/img/logos/github.svg" alt="GitHub">
+                    <div class="tooltip">
+                        <small>See my code</small><br>
+                        <strong>@Vixenka</strong>
+                    </div>
+                </a>
+
+                <a class="index-welcome-link tooltip-wrapper"
+                    href="https://discord.com/channels/@me/1130741088282488863">
+                    <img class="discord" src="/static/img/logos/discord.svg" alt="Discord">
+                    <div class="tooltip">
+                        <small>Reach me fast</small><br>
+                        <strong>@undh</strong>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="index-container">
+        <div class="index-content">
+            <div class="title">
+                <h2>Blog</h2>
+            </div>
+            {{md_posts}}
+        </div>
+    </div>
+
+    <Footer>

@@ -50,6 +50,7 @@ body {
     margin: 0;
     height: 100%;
     font-family: Oxygen;
+    overflow-y: scroll;
 }
 
 a {

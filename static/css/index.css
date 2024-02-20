@@ -6,10 +6,10 @@
 }
 
 .index-avatar {
-    height: 100%;
     border-radius: 100%;
     background-color: #000000;
     height: 10em;
+    width: 10em;
 }
 
 .index-welcome-right-container {
@@ -34,6 +34,7 @@
 }
 
 .index-welcome-link img {
+    width: 1.5em;
     height: 1.5em;
 }
 

@@ -1,0 +1,25 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - name: Deploy vixenka.com
+        id: api
+        uses: indiesdev/curl@v1.1
+        with:
+          url: https://vixenka.com/api/admin/deploy/site
+          method: "POST"
+          accept: "200,201,204"
+          body: "${{ secrets.VIXENKA_COM_DEPLOY_SECRET }}"
+          timeout: 100000
+          retries: 3
+      - name: "Print response"
+        run: echo ${{ steps.api.outputs.response }}

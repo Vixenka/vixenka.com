@@ -35,6 +35,16 @@
     border-radius: var(--rounded-border);
 }
 
+.md-content h2 {
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #2e2e3a;
+}
+
+.md-content h3 {
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #2d2d44;
+}
+
 .md-container .cite-note {
     font-size: 0.7em;
     text-decoration: none;

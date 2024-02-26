@@ -116,6 +116,10 @@
         text-align: center;
     }
 
+    .index-welcome-right-container {
+        width: calc(100% - 2em);
+    }
+
     .index-avatar {
         display: none;
     }

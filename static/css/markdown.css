@@ -81,12 +81,14 @@
 .md-tags {
     display: flex;
     justify-content: end;
-    margin-top: 1em;
+    flex-flow: wrap;
+    font-size: 14px;
 }
 
 .md-tags a {
     background-color: var(--background-drulple);
     padding: 0.5em;
+    margin-top: 1em;
     margin-left: 1em;
     border-radius: var(--rounded-border);
 }

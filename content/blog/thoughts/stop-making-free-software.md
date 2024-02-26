@@ -4,7 +4,7 @@ title: "Stop Making Free Software"
 description: "Everything need money for development, let's not skimp on software."
 date: 2024-02-18T00:19:42+01:00
 tags: ["thoughts", "software", "policy", "freedom"]
-draft: true
+draft: false
 technical: true
 difficulty: 2
 ---
@@ -30,11 +30,9 @@ Also probably every developer heard about [Linux](https://www.linux.org/), a lib
 Let's go back to the 90s and make Linux paid software for one dollar. Leaving aside the impact on the Linux popularity, how much money could Linux spend on self-improvement or creating additional tools? Billions of dollars.
 
 ### But fantastic in free software is contributing to source code
-Windows disallow that, MacOS also. But who said you can't contribute to paid software? Look at [Unreal Engine](https://www.unrealengine.com/), [you can do that, even exists manual which describe how](https://docs.unrealengine.com/5.3/en-US/contributing-to-the-unreal-engine/).
+Windows disallow that, MacOS also. But who said you can't contribute to paid software? Look at [Unreal Engine](https://www.unrealengine.com/), [you can do that, even exists manual which describe how](https://docs.unrealengine.com/5.3/en-US/contributing-to-the-unreal-engine/). They create software from the money they earn, which can be used to hire programmers and additional personnel to improve their engine. Simultaneously, the community can contribute to this effort. Everyone can make their own version which is adjusted to their needs.
 
-They create software from the money they earn, which can be used to hire programmers and additional personnel to improve their engine. Simultaneously, the community can contribute to this effort.
-
-Everyone can make their own version which is adjusted to their needs. Everything is it possible depends of creators of project.
+Everything is it possible depends of creators of project.
 
 ## 3. Corporate Wars
 If every project will earn money then every project will be related to corporation? And corporations are bad? 
@@ -42,7 +40,7 @@ If every project will earn money then every project will be related to corporati
 No, everything depends of that who own a company, and whether they are a good person.
 
 ### Replay of Unity game engine
-[Unity](https://unity.com/) for years have really libre license of usage of their engine (Unfortunately editing not). You could create a game and only start paying when the game makes a lot of money.
+[Unity](https://unity.com/) for years have really libre license of usage of their engine (unfortunately not for editing). You could create a game and only start paying when the game makes a lot of money.
 
 However, one day, the owners of Unity wanted to change this policy, along with their licensing history[_cn Unity engine controversials related to license change](https://www.gameinformer.com/2023/09/12/unity-introduces-controversial-per-install-fee-several-indie-devs-respond https://web.archive.org/web/20240217122006/https://www.gameinformer.com/2023/09/12/unity-introduces-controversial-per-install-fee-several-indie-devs-respond). Which, of course, was terrible and the creators were very outraged.
 

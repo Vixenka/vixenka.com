@@ -116,3 +116,16 @@ a:visited {
     color: var(--header-targeted);
     opacity: 1;
 }
+
+.warning {
+    background-color: #f9e154;
+    color: black;
+    padding: 0.5em;
+    font-size: 1.3em;
+    font-weight: 900;
+    width: calc(100% - 1em);
+    margin: 0;
+    border-radius: var(--rounded-border);
+    margin-bottom: 1em;
+    text-align: center;
+}

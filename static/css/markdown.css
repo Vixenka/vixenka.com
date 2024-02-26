@@ -187,6 +187,11 @@
         text-justify: inter-word;
     }
 
+    .md-container blockquote {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .md-table-of-contents-desktop {
         display: none;
     }

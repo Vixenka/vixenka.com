@@ -1,9 +1,9 @@
 ---
 author: "Vixen"
 title: "Stop Making Free Software"
-description: "When you plan to create your next big project e.g. tool which will be better than thousands of currently existing commercial project. And obviously this will be free, because libre world sounds fantastic. You should think it more."
+description: "Everything need money for development, let's not skimp on software."
 date: 2024-02-18T00:19:42+01:00
-tags: ["thoughts", "software", "policy"]
+tags: ["thoughts", "software", "policy", "freedom"]
 draft: true
 technical: true
 difficulty: 2
@@ -19,18 +19,12 @@ Imagine a world where you have to pay for nearly everything. A world where, for 
 This world is our current reality, and this **isn't** a pathology.
 The value of money is based on the conversion of our time and skills into numbers. Time is money, and money is time.
 
-### Software world is built on freedom
-Probably every developer heard about [Linux](https://www.linux.org/), a libre and gratis operating system which powers 85% of smartphones, 96.3% of the top one milion web servers[_cn Linux statistics](https://truelist.co/blog/linux-statistics/ https://web.archive.org/web/20240214191714/https://truelist.co/blog/linux-statistics/). Which means everyone use Linux, but who contributed for creating it?
+### But software world is built on freedom
+Almost every streamer use [OBS Studio](https://obsproject.com/) for creating their content. The entire industry makes a lot of money which e.g. Twitch's steamer [Ninja](https://en.wikipedia.org/wiki/Ninja_(gamer)) earns 142,177.30$ in October 2023 only from Twitch[_cn Twitch streamer Ninja earnings](https://www.dailymail.co.uk/news/article-12759011/Twitch-streamer-Ninja-shows-earnings-140K-month.html https://web.archive.org/web/20231222031415/https://www.dailymail.co.uk/news/article-12759011/Twitch-streamer-Ninja-shows-earnings-140K-month.html). But in the same moment budget of total raised money by OBS in [Open Collective](https://opencollective.com/) since 25 February 2019[_cn New ways tp support OBS development](https://obsproject.com/blog/new-ways-to-support-obs-development https://web.archive.org/web/20231226210919/https://obsproject.com/blog/new-ways-to-support-obs-development) is 445,530.63$[_cn OBS Project's budget on Open Collective](https://opencollective.com/obsproject#category-BUDGET https://web.archive.org/web/20240217113949/https://opencollective.com/obsproject#category-BUDGET). Consider how comparatively little the creators of OBS earned over their sixteen years of work compared to the streamers whose careers they helped build. Maybe if they made a dollar from each user they could improve their project or create an additional one?
 
-Directly, almost no one. Indirectly probably everyone, because [big companies](https://jobs.intel.com/en/job/-/-/599/56180513136) which we pay for products help develop that. Still, the money which receive Linux for own development is probably much smaller than e.g. [iOS](https://en.wikipedia.org/wiki/IOS).
+> The total funds collected from OBS are higher because they also have a Patreon, where Lain Bailey (lead author) earns 3,373$ per month, but the sum of all donations is unknown[_cn OBS Project's Patreon](https://www.patreon.com/obsproject https://web.archive.org/web/20240217113755/https://www.patreon.com/obsproject).
 
-Real numbers, almost every streamer use [OBS Studio](https://obsproject.com/) for creating their content. The entire industry makes a lot of money which e.g. Twitch's steamer [Ninja](https://en.wikipedia.org/wiki/Ninja_(gamer)) earns 142,177.30$ in October 2023 only from Twitch[_cn Twitch streamer Ninja earnings](https://www.dailymail.co.uk/news/article-12759011/Twitch-streamer-Ninja-shows-earnings-140K-month.html https://web.archive.org/web/20231222031415/https://www.dailymail.co.uk/news/article-12759011/Twitch-streamer-Ninja-shows-earnings-140K-month.html). But in the same moment budget of total raised money by OBS in [Open Collective](https://opencollective.com/) since 25 February 2019[_cn New ways tp support OBS development](https://obsproject.com/blog/new-ways-to-support-obs-development https://web.archive.org/web/20231226210919/https://obsproject.com/blog/new-ways-to-support-obs-development) is 445,530.63$[_cn OBS Project's budget on Open Collective](https://opencollective.com/obsproject#category-BUDGET https://web.archive.org/web/20240217113949/https://opencollective.com/obsproject#category-BUDGET).
-
-> The total funds collected from OBS are higher because they also have a Patreon, where Lain Bailey (one of the authors) earns 3,373$ per month, but the sum of all donations is unknown[_cn OBS Project's Patreon](https://www.patreon.com/obsproject https://web.archive.org/web/20240217113755/https://www.patreon.com/obsproject).
-
-Consider how comparatively little the creators of OBS earned over their sixteen years of work compared to the streamers whose careers they helped build. Maybe if they made a dollar from each user they could improve their project or create an additional one?
-
-Where could Linux be if it had as much money as [Windows](https://www.microsoft.com/en-us/windows) or [MacOS](https://www.apple.com/macos)?
+Also probably every developer heard about [Linux](https://www.linux.org/), a libre and gratis operating system which powers 85% of smartphones, 96.3% of the top one milion web servers[_cn Linux statistics](https://truelist.co/blog/linux-statistics/ https://web.archive.org/web/20240214191714/https://truelist.co/blog/linux-statistics/). Which means everyone use Linux, but who contributed for creating it? Directly, almost no one. Indirectly probably everyone, because [big companies](https://jobs.intel.com/en/job/-/-/599/56180513136) which we pay for products help develop that. Still, the money which receive Linux for own development is probably much smaller than e.g. [iOS](https://en.wikipedia.org/wiki/IOS). Where could Linux be if it had as much money as [Windows](https://www.microsoft.com/en-us/windows) or [MacOS](https://www.apple.com/macos)?
 
 ## 2. End of Liberty
 Let's go back to the 90s and make Linux paid software for one dollar. Leaving aside the impact on the Linux popularity, how much money could Linux spend on self-improvement or creating additional tools? Billions of dollars.

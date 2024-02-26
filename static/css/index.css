@@ -84,6 +84,20 @@
     color: var(--text-hint);
 }
 
+.index-content .post-list-tags {
+    display: flex;
+    justify-content: left;
+    margin-top: 1em;
+}
+
+.index-content .post-list-tags a {
+    margin-right: 0.75em;
+    font-size: 14px;
+    background-color: var(--background-brighter);
+    padding: 0.4em;
+    border-radius: var(--rounded-border);
+}
+
 @media (width <=1600px) {
     .index-content {
         width: 50%;

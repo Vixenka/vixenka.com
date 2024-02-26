@@ -1,10 +1,16 @@
 .footer {
     background-color: var(--background-footer);
-    padding: 3em;
+    padding: 3em 0 3em 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.footer-content {
     display: flex;
     justify-content: space-around;
-    height: 4em;
-    position: relative;
+    width: 95%;
 }
 
 .footer-text {
@@ -25,4 +31,10 @@
 
 .footer-description:hover .unhovered {
     display: none;
+}
+
+@media (width <=1000px) {
+    .footer {
+        font-size: 8px;
+    }
 }

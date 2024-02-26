@@ -182,6 +182,11 @@
         padding: 1em;
     }
 
+    .md-content p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
     .md-table-of-contents-desktop {
         display: none;
     }

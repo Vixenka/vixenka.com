@@ -46,7 +46,7 @@ I don't want to point the finger at anyone. But in my journey with searching a j
 ### Everybody wants a senior
 Positions for seniors are a lot, but probably this isn't a position for me yet. What I should learn in home to being a senior? Probably nothing, because probably any recruter will not qualify my personal experience to experience.
 
-So often I also submitting to mid positions, which looks fine from my perspective, because I know difference between these classification. [I solve problems that I think are advanced enough for juniors](), I work independently. But this is still not enough to gain a chance for recruitment.
+So often I also submitting to mid positions, which looks fine from my perspective, because I know difference between these classification. [I solve problems that I think are advanced enough for juniors](https://github.com/dimforge/bevy_rapier/pull/474), I work independently. But this is still not enough to gain a chance for recruitment.
 
 I don't understand that.
 

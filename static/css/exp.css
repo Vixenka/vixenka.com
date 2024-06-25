@@ -1,0 +1,33 @@
+.toml-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.toml-content {
+    width: 80%;
+}
+
+.toml-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: var(--rounded-border);
+    height: 18em;
+}
+
+.toml-header .md-content-data {
+    background-color: var(--background-header);
+    backdrop-filter: blur(10px);
+    border-radius: var(--rounded-border);
+    margin-top: 1em;
+}
+
+.video {
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+title = "NoiseEngine"
+description = "Game engine created focussing on performance, asynchronicity, and ease of use"
+commercial = false
+
+background_url = "noise-studio/noiseengine-background.webp"
+
+my_role = "Founder & Lead Developer"
+company_name = "Noise Studio"
+
+long_description = "NoiseEngine is a project which is written mostly in C#, native part is in Rust. It is a game engine which is created in around 95% by me, but I created this with help of my awesome friends - <a href=\"https://kkard2.com/\">kkard2</a> and <a href=\"https://xori7.github.io/\">Xori</a>. This project was created because Unity game engine was to weak for our dreams, we wanted to create a next generation voxel game called <a href=\"cubeform\">CubeForm</a>. We choosed technologies like Vulkan and started work for two years, after that we written around 1000 files of code, and created somehow working game engine."
+
+time = ["2021-10-18", "2023-11-09"]
+source_code = "https://github.com/NoiseStudio/NoiseEngine"
+dedication = 10
+languages = ["C#", "Rust"]
+related = ["../nesl"]
+
+[[part]]
+title = "Performance"
+text = "Creating a performant engine in C# was so difficult, from the perspective of time I think this was a mistake, but I learned a lot about performance and how to create a performant code. I learned so much about low level programming, graphics APIs especially Vulkan, and many optimization tricks."
+
+[[part]]
+text = "I created a lot of different benchmarks to test the performance of the engine comparing to another engines, and I can say this is awesome to see how fast C# can be. Take a look at this draw call performance comparison bellow."
+media = "/static/videos/exp/noise-studio/noiseengine-benchmark1-ne.webm"
+media_alt = "90k draw calls in NoiseEngine"
+
+[[part]]
+media = "/static/videos/exp/noise-studio/noiseengine-benchmark1-unity.webm"
+media_alt = "90k draw calls in Unity"
+
+[[part]]
+media = "/static/videos/exp/noise-studio/noiseengine-benchmark1-godot.webm"
+media_alt = "90k draw calls in Godot"
+
+[[part]]
+text = "The NoiseEngine destroyed the opponents in this benchmark, although the frametime instability in this version was due to the garbage collector, you can read more <a href=\"https://github.com/NoiseStudio/NoiseEngine/issues/298\">here</a>."
+
+[[part]]
+title = "Level of details in logic (ECS)"
+text = "Project have their own entity component system, written by me. Whole logic is based on that thing which is called NoiseEngine Jobs, this works little different from standard ECS, because I realized problem which exists in another game engines with too much work done for one frame."

@@ -16,6 +16,24 @@
     padding: 1em 2em 1em 2em;
 }
 
+.md-content-with-background {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 18em;
+}
+
+.md-content-with-background .md-content-data {
+    background-color: var(--background-drulple);
+    border-radius: var(--rounded-border);
+    margin-top: 1em;
+}
+
 .md-container blockquote {
     background-color: var(--background-drulple);
     padding: 1em;
@@ -26,7 +44,7 @@
     margin: 0;
 }
 
-.md-container h1 {
+.md-content h1 {
     background-color: var(--background-drulple);
     text-align: center;
     padding: 0.5em;
@@ -102,11 +120,10 @@
     width: 20%;
     margin-top: 1em;
     margin-left: 1em;
-}
 
-.md-table-of-contents-content-desktop {
-    position: fixed;
-    width: calc(20% - 2em);
+    position: sticky;
+    top: 5em;
+    margin-bottom: 1em;
 }
 
 .md-table-of-contents-mobile {

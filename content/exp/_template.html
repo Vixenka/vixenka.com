@@ -1,8 +1,23 @@
 {{title:{{md_title}} - Vixenka's world}}
 {{description:{{md_description}}}}
 
+{{title_elements:<h1>{{md_title}}</h1>
+<div class="md-content-data">
+    <div>words</div>
+    •
+    <div class="tooltip-wrapper">123</div>
+    •
+    <div>minute read</div>
+</div>}}
+
 <Header>
     <link rel="stylesheet" href="/static/css/markdown.css">
+
+    {{#if md_background_url}}
+    <div class="md-content md-content-with-background" style="background-image: url({{md_background_url}})">
+        {{title_elements}}
+    </div>
+    {{#endif}}
 
     <div class="md-container">
         <div class="md-table-of-contents-desktop md-table-of-contents-content">
@@ -12,14 +27,9 @@
         <div class="md-content">
             {{warning}}
 
-            <h1>{{md_title}}</h1>
-            <div class="md-content-data">
-                <div>{{md_word_count}} words</div>
-                •
-                <div class="tooltip-wrapper">{{md_date}}</div>
-                •
-                <div>{{md_read_time}} minute read</div>
-            </div>
+            {{#if !md_background_url}}
+            {{title_elements}}
+            {{#endif}}
 
             <details class="md-table-of-contents-mobile md-table-of-contents-content" open>
                 <summary class="title">Contents</summary>
